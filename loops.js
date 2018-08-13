@@ -16,6 +16,7 @@ function whileLoop(myNumber) {
   while (myNumber > 0) {
       console.log(--myNumber);
   }
-    console.log('done');
-
+   if (myNumber === 0) {
+     console.log('done');
+   }
 }
